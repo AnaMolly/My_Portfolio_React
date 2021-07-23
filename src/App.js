@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../src/components/styles/app.css'
 
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Header />
+        <Header> </Header>
         <Navbar />
         <Route exact path="/" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />

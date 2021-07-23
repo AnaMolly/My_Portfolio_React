@@ -1,16 +1,18 @@
 import React from 'react';
+import heroimg from '../../images/frontenddeveloper.png'
+import me from '../../images/Analia.jpeg'
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+    <div className="contentpages">
+      <div className="hero" style={{ display:'flex', flexWrap:'wrap', justifyContent:'center'}}> 
+            <img src={heroimg}></img>
+        </div> 
+        <hr style={{marginTop:'50px'}}/>
+      <h1 style={{padding:'45px 0px 20px 0px', fontSize: '60px', fontWeight:'200'}}>About Me</h1>
+      <img src={me} style={{padding:'45px'}}></img>
+      <p style={{fontSize:'23px', padding:"45px", lineHeight:'2'}}>
+      Hi there! I'm Analia, a full-stack web developer with a background in digital marketing and nutrition. <br></br>Some of my past work can be found under the <strong>Portfolio</strong> tab, and my skillset can be found under the <strong>Resume</strong> tab.  <br></br>If you have any questions, please feel free to contact me!
       </p>
     </div>
   );
