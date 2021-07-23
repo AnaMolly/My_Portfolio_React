@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div className="contentpages">
       <h1>Portfolio Page</h1>
@@ -19,3 +19,5 @@ export default function Portfolio() {
     </div>
   );
 }
+
+export default Portfolio

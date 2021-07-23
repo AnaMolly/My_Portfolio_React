@@ -5,11 +5,10 @@ import '../src/components/styles/app.css'
 
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-//import Project from "./components/Project";
+import Project from "./components/Project";
 import Footer from "./components/Footer";
 
 import About from "./components/pages/About";
-import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import Contact from "./components/pages/Contact";
 
@@ -20,7 +19,7 @@ function App() {
         <Header> </Header>
         <Navbar />
         <Route exact path="/" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio" component={Project} />
         <Route exact path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
         <Footer />
