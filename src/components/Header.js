@@ -3,9 +3,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header  style={{ backgroundColor: 'rgb(241, 42, 165)', margin: '0px' }}>
-      <div className="container flex-column justify-space-between-lg justify-center align-center text-center">
-        <h1 className="headername">
+    <header style={{ backgroundColor: 'rgb(241, 42, 165)', margin: '0px'}}>
+      <div>
+        <h1>
           ANALIA MOHAMDALLY
         </h1>
       </div>

@@ -16,10 +16,10 @@ function App() {
   return (
     <Router>
       <div>
-        <Header> </Header>
+        <Header />
         <Navbar />
         <Route exact path="/" component={About} />
-        <Route exact path="/portfolio" component={Project} />
+        <Route exact path="/portfolio" > <Project /> </Route>
         <Route exact path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
         <Footer />

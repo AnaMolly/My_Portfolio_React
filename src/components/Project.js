@@ -3,7 +3,7 @@ import React from 'react';
 function Portfolio() {
   return (
     <div className="contentpages">
-      <h1>Portfolio Page</h1>
+      <h1>Portfolio</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
