@@ -11,7 +11,7 @@ function Navbar() {
       <li className="nav-item">
         <Link 
           to="/"
-          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/react_portfolio" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
