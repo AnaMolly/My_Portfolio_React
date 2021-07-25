@@ -10,7 +10,7 @@ function Navbar() {
     <ul className="nav nav-tabs" style={{ backgroundColor: 'rgb(241, 42, 165)' }}>
       <li className="nav-item">
         <Link 
-          to="/"
+          to="/react_portfolio"
           className={location.pathname === "/react_portfolio" ? "nav-link active" : "nav-link"}
         >
           About
