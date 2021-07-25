@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This application is my Portfolio and it was made using React.js. It renders multiple components that include pages, "About Me", "Portfolio", "Contact Me" and "Resume". A brief background about myself, some of my past projects, my proficiencies and resume as well as a contact form can be found in this React.js application. 
+ This is my Portfolio and it was made using React.js. This app renders multiple components that includes the following pages, "About Me", "Portfolio", "Contact Me" and "Resume". A brief background about myself, some of my past projects, my proficiencies and resume as well as a contact form can be found in this React.js application. 
   ![]()
 
   # Table of Contents
