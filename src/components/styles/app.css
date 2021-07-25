@@ -83,7 +83,7 @@ header h1 {
     flex-direction: column;
     padding: 40px 80px 40px 80px;
     margin: 40px;
-    background-color: rgb(241, 42, 165);
+    background-color: rgb(243, 187, 2);
     font-weight: 400;
 }
 .form-group ::placeholder{
@@ -93,13 +93,12 @@ header h1 {
 }
 .form-group h2{
     padding: 40px 0px 40px 0px;
-    font-weight: 200;
 }
 .form-group button {
     margin-top:50px;
     padding:10px 60px 10px 60px;
     font-size: 20px;
-    background-color: rgb(247, 195, 25);
+    background-color: rgb(241, 42, 165);
     border:none
 }
 .form-group button:hover{
@@ -110,7 +109,8 @@ header h1 {
     font-size: 25px;
     padding:10px;
     margin:0px;
-    color: white;
+    color: rgb(92, 90, 90);
+    letter-spacing: 2px;
 }
 .error-text {
     font-size: 30px;
