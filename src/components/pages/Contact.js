@@ -66,15 +66,23 @@ function Contact() {
     } else {
       setErrorMessage('');
     }
+    
+    if (!fullName.length) {
 
+      setErrorMessage('You must include a name.')
+      return
+
+    } else {
+        setErrorMessage('')
+    }
     if (!message.length) {
 
       setErrorMessage('You must include a message.')
       return
 
-      } else {
+    } else {
         setErrorMessage('')
-      }
+    }
 
    
     
