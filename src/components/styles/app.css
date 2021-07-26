@@ -170,6 +170,9 @@ header h1 {
         padding: 10px;
         
     }
+    .resume {
+        flex-direction: column;
+    }
 }
 @media screen and (max-width:360px){
   header h1{
