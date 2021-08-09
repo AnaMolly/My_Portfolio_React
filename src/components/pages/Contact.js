@@ -1,7 +1,10 @@
 import React from 'react';
 //import { validateEmail } from '../../utils/helpers';
 
+// CONTACT PAGE
+
 function Contact() {
+
   //CONTACT FORM:
   // const [fullName, setFullName] = useState('');
   // const [email, setEmail] = useState('');
@@ -100,13 +103,15 @@ function Contact() {
        <p style={{color:"black", fontSize:'30px', padding:'50px', textAlign:'center', lineHeight:'1.5'}}>Hi there! Please feel free to contact me via phone number, email or Linkedin. I look forward to connecting!</p>
             
             <div class="contactcon"> 
-            <p> 647-779-0749</p>
-            <a href="mailto:analia.mohamdally@gmail.com">analia.mohamdally@gmail.com</a>
+            <p className="contactme2p"> 647-779-0749</p>
+            <a className="contactme2a" href="mailto:analia.mohamdally@gmail.com">analia.mohamdally@gmail.com</a>
            
-            <a href="https://www.linkedin.com/in/analia-mohamdally-1a7438179/">Linkedin</a>
-            <a href="https://github.com/AnaMolly">GitHub</a>
+            <a className="contactme2a" href="https://www.linkedin.com/in/analia-mohamdally-1a7438179/">Linkedin</a>
+            <a className="contactme2a" href="https://github.com/AnaMolly">GitHub</a>
             </div>
         </section> 
+
+
       {/* CONTACT FORM: */}
       {/* <form className="form-group">
       <h2> Hi there, please fill out the fields below and I will get back to you as soon as possible!</h2>

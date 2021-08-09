@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
+// NAVBAR COMPONENT
 function Navbar() {
 
   const location = useLocation();
 
   return (
+    // Navbar tabs & links
     <ul className="nav nav-tabs" style={{ backgroundColor: 'rgb(241, 42, 165)' }}>
       <li className="nav-item">
         <Link 

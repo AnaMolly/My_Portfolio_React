@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// HEADER COMPONENT
 const Header = () => {
   return (
     <header style={{ backgroundColor: 'rgb(241, 42, 165)', margin: '0px'}}>

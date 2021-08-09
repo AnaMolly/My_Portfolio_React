@@ -2,6 +2,8 @@ import React from 'react';
 import heroimg from '../../images/frontenddeveloper.png'
 import me from '../../images/Analia.jpeg'
 
+
+// ABOUT PAGE
 export default function About() {
   return (
     <div className="contentpages">

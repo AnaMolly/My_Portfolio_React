@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from '../Project'
-
 import portimg from '../../images/portfolioimg.png'
 import simimg from '../../images/simmerimg.png'
 import dayplanimg from '../../images/dayplannerimg.png'
@@ -53,11 +52,13 @@ const projects = [
     }
 ]
 
+
+// PORTFOLIO PAGE
 function Portfolio() {
     return (
       <div className="contentpages">   
             <p style={{paddingBottom:'20px', fontSize:'60px'}}>Portfolio Pieces</p>
-            <p style={{fontStyle:'italic', fontSize:'25px', padding:'30px', color: 'rgb(241, 42, 165)', borderTop:'thin solid lightgray'}}>Click on an image to view the application.</p>
+            <p style={{fontStyle:'italic', fontSize:'30px', padding:'30px 30px 0px 30px', color: 'rgb(241, 42, 165)', borderTop:'thin solid lightgray'}}>Click on an image to view the application.</p>
           <div  className="portfoliopieces">
               {projects.map((project)=>
               <Project title={project.title} image={project.image} hlink={project.hlink} alt={project.alt} repo={project.repo} />

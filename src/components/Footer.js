@@ -3,6 +3,8 @@ import gitimg from '../images/githublogo.png'
 import linkimg from '../images/linkedinlogo.png'
 import stackimg from '../images/stacklogo.png'
 
+
+// FOOTER COMPONENT
 const Footer = () => {
   return (
     <footer className="footer">

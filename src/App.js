@@ -12,8 +12,10 @@ import Resume from "./components/pages/Resume";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 
+// Application
 function App() {
   return (
+    // Application routes
     <Router>
       <div>
         <Header />
