@@ -25,7 +25,7 @@
   ![](./src/images/aboutme2.png)
   ![](./src/images/portfolio1.png)
   ![](./src/images/portfolio.png)
-  ![](./src/images/contact2.png)
+  ![](./src/images/contact.png)
   ![](./src/images/resume.png)
 
   # Tests
