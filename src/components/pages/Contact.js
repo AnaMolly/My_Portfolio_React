@@ -1,101 +1,114 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import React from 'react';
+//import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-  const [fullName, setFullName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  //CONTACT FORM:
+  // const [fullName, setFullName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [message, setMessage] = useState('');
+  // const [errorMessage, setErrorMessage] = useState('');
 
-  const handleInputChange = (e) => {
+  // const handleInputChange = (e) => {
    
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+  //   const { target } = e;
+  //   const inputType = target.name;
+  //   const inputValue = target.value;
 
-    if (inputType === 'email') {
+  //   if (inputType === 'email') {
 
-      setEmail(inputValue);
+  //     setEmail(inputValue);
 
-      if (!validateEmail(inputValue)) {
-        setErrorMessage('Invalid email address.');
-        return
+  //     if (!validateEmail(inputValue)) {
+  //       setErrorMessage('Invalid email address.');
+  //       return
       
-      } else {
-        setErrorMessage('');
-      }
+  //     } else {
+  //       setErrorMessage('');
+  //     }
   
 
-    } else if (inputType === 'message') {
+  //   } else if (inputType === 'message') {
 
-      setMessage(inputValue) 
+  //     setMessage(inputValue) 
 
-      if (!inputValue.length) {
+  //     if (!inputValue.length) {
 
-        setErrorMessage('You must include a message.')
-        return
-        } else {
-          setErrorMessage('')
-        }
+  //       setErrorMessage('You must include a message.')
+  //       return
+  //       } else {
+  //         setErrorMessage('')
+  //       }
 
-    } else if (inputType === "fullName"){
+  //   } else if (inputType === "fullName"){
 
-      setFullName (inputValue)
+  //     setFullName (inputValue)
 
-      if (!inputValue.length) {
+  //     if (!inputValue.length) {
 
-        setErrorMessage('You must include a name.')
-        return
+  //       setErrorMessage('You must include a name.')
+  //       return
   
-        } else {
-          setErrorMessage('')
-        }
-    }
-  }
+  //       } else {
+  //         setErrorMessage('')
+  //       }
+  //   }
+  // }
 
     
 
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault(); 
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault(); 
 
-    if (!validateEmail(email)) {
-      setErrorMessage('Invalid email address.');
-      return
+  //   if (!validateEmail(email)) {
+  //     setErrorMessage('Invalid email address.');
+  //     return
     
-    } else {
-      setErrorMessage('');
-    }
+  //   } else {
+  //     setErrorMessage('');
+  //   }
     
-    if (!fullName.length) {
+  //   if (!fullName.length) {
 
-      setErrorMessage('You must include a name.')
-      return
+  //     setErrorMessage('You must include a name.')
+  //     return
 
-    } else {
-        setErrorMessage('')
-    }
-    if (!message.length) {
+  //   } else {
+  //       setErrorMessage('')
+  //   }
+  //   if (!message.length) {
 
-      setErrorMessage('You must include a message.')
-      return
+  //     setErrorMessage('You must include a message.')
+  //     return
 
-    } else {
-        setErrorMessage('')
-    }
+  //   } else {
+  //       setErrorMessage('')
+  //   }
 
    
     
-    setFullName('');
-    setEmail('');
-    setMessage('')
-    setErrorMessage('')
-  };
+  //   setFullName('');
+  //   setEmail('');
+  //   setMessage('')
+  //   setErrorMessage('')
+  // };
 
   return (
     <div>
-      
-      <form className="form-group">
+       <section className="contactme2">
+       <h2>CONTACT INFORMATION:</h2>
+       <p style={{color:"black", fontSize:'30px', padding:'50px', textAlign:'center', lineHeight:'1.5'}}>Hi there! Please feel free to contact me via phone number, email or Linkedin. I look forward to connecting!</p>
+            
+            <div class="contactcon"> 
+            <p> 647-779-0749</p>
+            <a href="mailto:analia.mohamdally@gmail.com">analia.mohamdally@gmail.com</a>
+           
+            <a href="https://www.linkedin.com/in/analia-mohamdally-1a7438179/">Linkedin</a>
+            <a href="https://github.com/AnaMolly">GitHub</a>
+            </div>
+        </section> 
+      {/* CONTACT FORM: */}
+      {/* <form className="form-group">
       <h2> Hi there, please fill out the fields below and I will get back to you as soon as possible!</h2>
         <label className="form-label">Name:</label>
         <input
@@ -134,7 +147,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-      </form>
+      </form> */}
       
     </div>
   );
