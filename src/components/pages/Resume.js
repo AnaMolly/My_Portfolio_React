@@ -25,8 +25,8 @@ export default function Resume() {
         <div>
         {/* Resume */}
           <h1>Resume:</h1>
-          <p>Click <a href={resume}>here</a> or the image below for a downloadable version of my resume.</p>
-          <a href={resume} ><img src={resumeimg} alt="resume" style={{maxWidth:'300px', padding:'15px'}}></img></a>
+          <p>Click <a href={resume}  target='_blank'>here</a> or the image below for a downloadable version of my resume.</p>
+          <a href={resume} target='_blank' ><img src={resumeimg} alt="resume" style={{maxWidth:'300px', padding:'15px'}}></img></a>
         </div>
        
     </div>
