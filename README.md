@@ -6,7 +6,7 @@
  This is my Portfolio and it was made using React.js. This app renders multiple components that includes the following pages, "About Me", "Portfolio", "Contact Me" and "Resume". A brief background about myself, some of my past projects, my proficiencies and resume as well as a contact form can be found in this React.js application. 
   
   ## Deployed App 
-  https://anamolly.github.io/react_portfolio/ 
+  https://anamolly.github.io/analia_mohamdally/
 
   # Table of Contents
   - [Installation Instructions](#installation-instructions)
