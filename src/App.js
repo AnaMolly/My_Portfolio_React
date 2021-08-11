@@ -20,7 +20,7 @@ function App() {
       <div>
         <Header />
         <Navbar />
-        <Route exact path="/react_portfolio" component={About} />
+        <Route exact path="/analia_mohamdally" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />  
         <Route exact path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
